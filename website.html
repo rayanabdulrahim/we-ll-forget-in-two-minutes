@@ -88,7 +88,7 @@ header{
     if (message.trim() !== '') {
       var chatArea = document.createElement('div');
       chatArea.textContent = message;
-      chatArea.style.color = 'white';
+      chatArea.style.color = 'red';
       document.body.appendChild(chatArea);
       setTimeout(function() {
         chatArea.remove();
